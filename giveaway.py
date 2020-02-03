@@ -159,7 +159,7 @@ class GiveawayPlugin(commands.Cog):
 
                 embed = message.embeds[0]
                 embed.description = (
-                    f"React with 🎉 to enter the giveaway!\n\n"
+                    f"Click reaction below to join you bitch!!\n\n"
                     f"Time Remaining: **{time_remaining}**"
                 )
                 await message.edit(embed=embed)
@@ -251,7 +251,7 @@ class GiveawayPlugin(commands.Cog):
             )
             if resp.status == 400:
                 await ctx.send(
-                    "I was not able to parse the time properly, please try again."
+                    "Why did you give me wrong time? AGIAN!."
                 )
                 continue
             elif resp.status == 500:
